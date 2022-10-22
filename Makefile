@@ -23,7 +23,7 @@ endif
 # Compiler and flags
 CC		=	gcc
 CFLAGS	=	-Wall -Werror -Wextra -O2
-INCS	=	-I. -I./include -I$(LIBMLX)/include/MLX42
+INCS	=	-I. -I./include -I$(LIBMLX)/include
 LIBS	=	-lm -lglfw -$(LIBMLX)/libmlx42.a
 RM		=	rm -rf
 
@@ -58,10 +58,12 @@ libmlx:
 # Removes objects
 clean:
 	$(HIDE)$(RM) $(OBJS)
+	$(HIDE)$(MAKE) -C $(LIBMLX) clean
 
 # Removes objects and executables
 fclean: clean
 	$(HIDE)$(RM) $(NAME)
+	$(HIDE)$(MAKE) -C $(LIBMLX) fclean
 
 # Removes objects and executables and remakes
 re: fclean all
