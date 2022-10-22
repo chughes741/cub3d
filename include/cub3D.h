@@ -6,7 +6,7 @@
 /*   By: chughes <chughes@student.42quebec.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/22 12:38:38 by chughes           #+#    #+#             */
-/*   Updated: 2022/10/22 12:45:32 by chughes          ###   ########.fr       */
+/*   Updated: 2022/10/22 13:14:49 by chughes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,6 @@
 # include <fcntl.h>		// open
 # include <math.h>		// Math library
 
+# include "MLX42.h"
 
 #endif // CUB3D_H
