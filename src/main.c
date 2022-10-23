@@ -6,7 +6,7 @@
 /*   By: chughes <chughes@student.42quebec.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/22 12:45:39 by chughes           #+#    #+#             */
-/*   Updated: 2022/10/22 12:54:17 by chughes          ###   ########.fr       */
+/*   Updated: 2022/10/22 13:29:48 by chughes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,15 @@
 
 int	main(int argc, char *argv[])
 {
-	(void)argc;
-	(void)argv;
-	return (0);
+	// load map
+	// error check map
+	// load config for settings ie. mlx_set_settings
+	// mlx_init
+	// register hooks
+	// loop
+	// mlx terminate
+	
+
+
+	exit (0);
 }
